@@ -1,0 +1,134 @@
+/* CSS RESET DONT CHANGE */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLE */
+
+root {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    display: flex;
+    padding: 13px;
+    background-color: #000000;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 0 black;
+}
+body {
+   
+    background-image: url("img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover
+ 
+}
+.logo h1 {
+    font-size: 1.6rem;
+    color: #E4E2F0;
+    margin-right: 37vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+nav  a {
+    color: #E4E2F0;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.mypic  img {
+    width: 300px;
+}
+
+/* CONTAINER */
+.container-main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    flex-wrap: wrap;
+}
+
+/* HERO */
+main {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    flex-wrap: wrap;
+}
+.container-main main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+
+.main h1  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.4em;
+    margin-bottom: 5rem;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.main p  {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.8)
+}
+
